@@ -185,14 +185,13 @@ header nav h1 a:visited {
 .web-product .site-list {
   width: 101%;
 }
-.web-product .site-list li a {
-  display: inline-block;
+.web-product .site-list li {
   float: left;
-  height: 240px;
+  height: 270px;
   width: 24%;
-  margin: 0 1% 55px 0;
+  margin: 0 12px 55px 0;
 }
-.web-product .site-list li a img {
+.web-product .site-list li img {
   border: 1px solid #cecece;
   -moz-transition: transform 0.3s linear 0s;
   -o-transition: transform 0.3s linear 0s;
@@ -201,14 +200,14 @@ header nav h1 a:visited {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.web-product .site-list li a img:hover {
+.web-product .site-list li img:hover {
   -moz-transform: scale(1.02);
   -ms-transform: scale(1.02);
   -o-transform: scale(1.02);
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
-.web-product .site-list li a h2 {
+.web-product .site-list li h2 {
   margin: 2px 0 0;
   font-size: 1.4rem;
   font-weight: normal;
@@ -497,16 +496,17 @@ footer {
     margin: 20px auto;
   }
   .web-product .site-list {
-    width: 104%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
   }
-  .web-product .site-list li a {
-    display: inline-block;
-    float: left;
-    height: 165px;
-    width: 46%;
-    margin: 0 13px 25px 0;
+  .web-product .site-list li {
+    height: 190px;
+    width: 50%;
+    margin: 0;
+    padding: 5px;
   }
-  .web-product .site-list li a h2 {
+  .web-product .site-list li h2 {
     margin: 1px 0 0;
     font-size: 1.2rem;
   }
