@@ -162,6 +162,7 @@ header {
 /*web-site
 ------------------------------------------------------------*/
 .web-product {
+	width: 100%;
 	margin: 30px 0;
 	.site-list {
 		width: 101%;
@@ -169,7 +170,7 @@ header {
 			float: left;
 			height: 270px;
 			width: 24%;
-			margin: 0 12px 55px 0;
+			margin: 0 1% 55px 0;
 			img {
 				border: 1px solid #cecece;
 				-moz-transition: transform 0.3s linear 0s;
