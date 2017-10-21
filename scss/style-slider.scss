@@ -171,7 +171,7 @@ header {
 	.flexslider {
 		position: relative;
 		margin: 0 0 60px;
-		padding: 35px 0 0;
+		padding: 35px 50px 0;
 		background: #fff none repeat scroll 0 0;
 		zoom: 1;
 		&:hover {
@@ -521,6 +521,16 @@ header {
 	.flexslider {
 		margin: 0 0 20px;
 		padding: 5px 0 0;
+		&:hover {
+			.flex-direction-nav {
+				.flex-prev {
+					left: 10px;
+				}
+				.flex-next {
+					right: 10px;
+				}
+			}
+		}
 		.slides {
 			li {
 				display: none;
