@@ -226,7 +226,7 @@ header {
 	}
 }
 
-.flexslider:hover {
+/*.flexslider:hover {
 	.flex-direction-nav {
 		.flex-prev {
 			opacity: 0.7;
@@ -243,7 +243,7 @@ header {
 			}
 		}
 	}
-}
+}*/
 
 .no-js {
 	.flexslider {
@@ -541,7 +541,7 @@ header {
 	.flex-nav-prev {
 		.flex-prev {
 			position: absolute;
-			top: 25%;
+			top: 22%;
 			opacity: 0.7;
 			left: 10px;
 			&:before {
@@ -553,7 +553,7 @@ header {
 	.flex-nav-next {
 		.flex-next {
 			position: absolute;
-			top: 25%;
+			top: 22%;
 			opacity: 0.7;
 			right: 10px;
 			&:before {
