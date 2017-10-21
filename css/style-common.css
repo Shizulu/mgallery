@@ -180,6 +180,7 @@ header nav h1 a:visited {
 /*web-site
 ------------------------------------------------------------*/
 .web-product {
+  width: 100%;
   margin: 30px 0;
 }
 .web-product .site-list {
@@ -189,7 +190,7 @@ header nav h1 a:visited {
   float: left;
   height: 270px;
   width: 24%;
-  margin: 0 12px 55px 0;
+  margin: 0 1% 55px 0;
 }
 .web-product .site-list li img {
   border: 1px solid #cecece;
