@@ -28,7 +28,8 @@ body {
   line-height: 1.4;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 @-webkit-keyframes fadeIn {
@@ -143,6 +144,63 @@ header h1 a:visited {
 	font-style: italic;
 	font-size: 1.4rem;
 }*/
+/*hunberger
+------------------------------------------------------------*/
+body.menu-open {
+  overflow-y: hidden;
+}
+body.menu-open #game-menu {
+  right: 0;
+}
+body.menu-open #cover {
+  display: block;
+}
+
+#cover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  z-index: 1;
+}
+
+#game-menu {
+  position: absolute;
+  top: 0;
+  right: -270px;
+  width: 270px;
+  min-height: 100%;
+  background: #1879ff none repeat scroll 0 0;
+  color: #fff;
+  z-index: 2;
+  transition: 0.4s;
+}
+#game-menu h4 {
+  margin: 30px 20px 30px 30px;
+  font-size: 2rem;
+}
+#game-menu ul li:hover {
+  background: #4190ff none repeat scroll 0 0;
+}
+#game-menu ul li a {
+  display: inline-block;
+  margin: 20px 30px;
+  font-size: 1.6rem;
+}
+
+#show, #hide {
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
 /*top-menu
 ------------------------------------------------------------*/
 .top-menu {
@@ -300,6 +358,42 @@ footer {
     top: 60px;
     left: 20px;
     font-size: 3.5rem;
+  }
+
+  /*hunberger
+  ------------------------------------------------------------*/
+  #game-menu {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 85%;
+    background: #1879ff none repeat scroll 0 0;
+    z-index: 9999;
+  }
+  #game-menu h4 {
+    margin: 30px 20px 30px 30px;
+    font-size: 2rem;
+  }
+  #game-menu ul li {
+    border-bottom: 1px solid #92c0ff;
+  }
+  #game-menu ul li:hover {
+    background: #4190ff none repeat scroll 0 0;
+  }
+  #game-menu ul li:first-child {
+    border-top: 1px solid #92c0ff;
+  }
+  #game-menu ul li a {
+    display: inline-block;
+    margin: 20px 30px;
+    font-size: 1.6rem;
+  }
+
+  #show, #hide {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 4rem;
   }
 
   /*top-menu
