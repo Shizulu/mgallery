@@ -171,28 +171,30 @@ header {
 			height: 270px;
 			width: 24%;
 			margin: 0 1% 55px 0;
-			img {
-				border: 1px solid #cecece;
-				-moz-transition: transform 0.3s linear 0s;
-				-o-transition: transform 0.3s linear 0s;
-				-webkit-transition: transform 0.3s linear 0s;
-				transition: transform 0.3s linear 0s;
-				-webkit-backface-visibility: hidden;
-				backface-visibility: hidden;
-				&:hover {
-					-moz-transform: scale(1.02);
-					-ms-transform: scale(1.02);
-					-o-transform: scale(1.02);
-					-webkit-transform: scale(1.02);
-					transform: scale(1.02);
-				}
-			}
-			h2 {
+      a {
+        img {
+          border: 1px solid #cecece;
+          -moz-transition: transform 0.3s linear 0s;
+          -o-transition: transform 0.3s linear 0s;
+          -webkit-transition: transform 0.3s linear 0s;
+          transition: transform 0.3s linear 0s;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          &:hover {
+            -moz-transform: scale(1.02);
+            -ms-transform: scale(1.02);
+            -o-transform: scale(1.02);
+            -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+          }
+        }
+        h2 {
 				margin: 2px 0 0;
 				font-size: 1.4rem;
 				font-weight: normal;
 				text-decoration: underline;
-			}
+			  }
+      }
 		}
 	}	
 }
