@@ -229,7 +229,7 @@ body.menu-open #cover {
 }
 .top-menu ul li h2 a {
   position: relative;
-  display: inline-block;
+  display: block;
   padding: 15px;
   background: #05033f none repeat scroll 0 0;
   color: #fff;
@@ -403,7 +403,6 @@ footer {
     line-height: 1.5;
   }
   .top-menu ul li h2 a {
-    display: block;
     padding: 15px;
     background: #05033f none repeat scroll 0 0;
     color: #fff;
