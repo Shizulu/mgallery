@@ -24,7 +24,8 @@ body {
   font-size: 10px;
   font-size: 1rem;
   color: #333;
-  line-height: 1.4;
+  line-height: 1.5;
+  letter-spacing: .05em;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
@@ -227,6 +228,7 @@ header nav h1 a:visited {
   float: left;
   width: 19%;
   font-size: 1.4rem;
+  word-break: break-all;
 }
 .website-inside .summary dt {
   padding: 4px 8px 2px 14px;
@@ -524,7 +526,7 @@ footer {
     margin: 0 0 15px;
   }
   .website-inside .summary dt {
-    width: 150px;
+    min-width: 150px;
     padding: 5px 12px 2px;
   }
   .website-inside .summary dd {
@@ -579,7 +581,7 @@ footer {
   #movie-work .movie-list ul li a {
     display: inline-block;
     float: left;
-    width: 44%;
+    width: calc( calc(100% - 40px) / 2 );
     height: 220px;
     margin: 0 20px 20px 0;
     font-size: 1.3rem;

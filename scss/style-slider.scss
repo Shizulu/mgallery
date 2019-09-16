@@ -23,7 +23,8 @@ body {
 	font-size: 10px;
 	font-size: 1rem;
 	color: #333;
-	line-height: 1.4;
+	line-height: 1.5;
+	letter-spacing: .05em;
 	animation: fadeIn 2s ease 0s 1 normal;
 	-webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
@@ -494,7 +495,7 @@ header {
 				position: absolute;
 				left: 20px;
 				font-size: 3rem;
-			}	
+			}
 		}
 	}
 }
@@ -573,7 +574,7 @@ header {
 		}
 	}
 }
-	
+
 .flex-control-thumbs {
 	margin: 25px 0 0;
 	li {
@@ -585,7 +586,7 @@ header {
 		}
 	}
 }
-	
+
 /*page top
 ------------------------------------------------------------*/
 .pageTop {
